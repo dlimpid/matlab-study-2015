@@ -1,0 +1,17 @@
+source: .
+destination: ./_site
+
+# Conversion
+markdown: kramdown
+kramdown:
+  input: GFM
+redcarpet:
+  extensions: [strikethrough, tables]
+
+highlighter: pygments
+
+# Serving
+baseurl: "matlab-study-2015"
+
+#
+githubfileurl: "https://github.com/dlimpid/matlab-study-2015/blob/gh-pages"
