@@ -18,21 +18,22 @@ An internal study for Hwang’s lab, Department of Mathematics, POSTECH.
 - Place: **Room 210**, Mathematical Science Building
 - Text: There is no required text but I will continually update this homepage instead. See [References](#references) for more materials.
 
-Click [here](https://github.com/dlimpid/matlab-study-2015/issues) for any questions, comments, and requests. 
+Click <del>[here](https://github.com/dlimpid/matlab-study-2015/issues)</del> for any questions, comments, and requests. 
 **Any correction also is appreciated.**
+(I am finding another methods other than GitHub issue page, which signing in is needed to write a post to.)
 
 
 ## Contents
 
 - [Introduction]({{ site.baseurl }}/contents/introduction)
 - Arrays
-  - [Array Construction and Indexing]({{ site.baseurl }}/contents/arrays/array-construction-and-indexing)
-  - [Array Operations]({{ site.baseurl }}/contents/arrays/array-operations)
+  - [Array Construction and Indexing]({{ site.baseurl }}/contents/array-construction-and-indexing)
+  - [Array Operations]({{ site.baseurl }}/contents/array-operations)
     - Array Operations
     - Relational and Logical Operations
-- [Data Types: Numeric Data Types, Strings, Cell Arrays, and Structures](contents/data-types)
+- [Data Types: Numeric Data Types, Strings, Cell Arrays, and Structures]({{ site.baseurl }}/contents/data-types)
 - Control Flow
-  - Conditional: If-Else-End and Switch-Case
+  - [Conditional Statements]({{ site.baseurl }}/contents/conditional-statements)
   - Loops
 - Functions
 - Performance

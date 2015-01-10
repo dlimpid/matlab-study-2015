@@ -18,8 +18,6 @@
   - For loops
     - Matrix loop values: e.g. `for k = magic(3)`
   - While loops
-  - If-elseif-else-end constructions
-  - Switch constructions
 - Preallocation and Vectorization
   - Preallocation
   - Vectorization
