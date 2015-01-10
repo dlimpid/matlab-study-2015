@@ -26,15 +26,13 @@ Click [here](https://github.com/dlimpid/matlab-study-2015/issues) for any questi
 
 - [Introduction]({{ site.baseurl }}/contents/introduction)
 - Arrays
-  - [Array Construction and Indexing]({{ site.baseurl }}/contents/arrays/array-construction-and-indexing.html)
-  - [Array Operations]({{ site.baseurl }}/contents/arrays/array-operations.html)
+  - [Array Construction and Indexing]({{ site.baseurl }}/contents/arrays/array-construction-and-indexing)
+  - [Array Operations]({{ site.baseurl }}/contents/arrays/array-operations)
+    - Array Operations
+    - Relational and Logical Operations
 - [Data Types: Numeric Data Types, Strings, Cell Arrays, and Structures](contents/data-types)
-- Operations
-  - Array Operations
-  - Relational and Logical Operations
 - Control Flow
-  - If-Else-End
-  - Switch-Case
+  - Conditional: If-Else-End and Switch-Case
   - Loops
 - Functions
 - Performance

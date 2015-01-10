@@ -88,6 +88,7 @@ ans =
 | `Inf`  | F   | F    | T     | F      | F     |
 | `-Inf` | F   | F    | F     | T      | F     |
 | `NaN`  | F   | F    | F     | F      | F     |
+{:.table}
 
 ## Strings
 

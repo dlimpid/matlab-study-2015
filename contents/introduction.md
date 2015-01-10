@@ -105,7 +105,7 @@ ans =
 
 ## Script M-Files
 
-[scriptexample.m]({{ site.githubfileurl }}{{ page.url }}/../scriptexample.m)
+[scriptexample.m]({{ site.githubfileurl }}/scriptexample.m)
 
 ~~~
 % scriptexample.m

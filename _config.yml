@@ -23,6 +23,14 @@ redcarpet:
   extensions: [strikethrough, tables]
 highlighter: pygments
 
+permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: "contents"
+    values:
+      layout: "page"
 
 # Site variables
-githubfileurl: "https://github.com/dlimpid/matlab-study-2015/blob/gh-pages"
+githubfileurl: "https://github.com/dlimpid/matlab-study-2015/blob/gh-pages/contents/src"
