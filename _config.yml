@@ -1,17 +1,28 @@
+# Site settings
+title: MATLAB/Octave Study
+# email: your-email@domain.com
+# description: > # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+# Serving
+baseurl: "/matlab-study-2015"
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+
+# Build settings
 source: .
 destination: ./_site
 
-# Conversion
 markdown: kramdown
 kramdown:
   input: GFM
 redcarpet:
   extensions: [strikethrough, tables]
-
 highlighter: pygments
 
-# Serving
-baseurl: "/matlab-study-2015"
 
-#
+# Site variables
 githubfileurl: "https://github.com/dlimpid/matlab-study-2015/blob/gh-pages"

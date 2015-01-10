@@ -17,7 +17,7 @@ title: Home
 - Text: There is no required text but I will continually update this homepage instead. See [References](#references) for more materials.
 
 Click [here](https://github.com/dlimpid/matlab-study-2015/issues) for any questions, comments, and requests. 
-*Any correction also is appreciated.*
+**Any correction also is appreciated.**
 
 
 ## Contents
@@ -49,7 +49,7 @@ Click [here](https://github.com/dlimpid/matlab-study-2015/issues) for any questi
 
 ### Windows
 
-Precompiled with Microsoft Visual Studio are available from [Octave Forge](http://sourceforge.net/projects/octave/files/Octave%20Windows%20binaries/Octave%203.6.4%20for%20Windows%20Microsoft%20Visual%20Studio/).
+Precompiled version with Microsoft Visual Studio are available from [Octave Forge](http://sourceforge.net/projects/octave/files/Octave%20Windows%20binaries/Octave%203.6.4%20for%20Windows%20Microsoft%20Visual%20Studio/).
 
 ### Debian (Ubuntu)
 

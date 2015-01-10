@@ -2,7 +2,7 @@
 
 ## Pages
 
-- Update Jekyll templates with `jekyll new`
+- Customized Bootstrap
 
 ## Contents
 
