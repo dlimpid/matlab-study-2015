@@ -5,6 +5,8 @@ title: Home
 
 # MATLAB/Octave Study
 
+An internal study for Hwang’s lab, Department of Mathematics, POSTECH.
+
 - Schedule
   - **Wednesday, January 14, 2015, 4:00 PM**
   - Monday, 19, 4:00 PM
@@ -26,10 +28,7 @@ Click [here](https://github.com/dlimpid/matlab-study-2015/issues) for any questi
 - Arrays
   - [Array Construction and Indexing]({{ site.baseurl }}/contents/arrays/array-construction-and-indexing.html)
   - [Array Operations]({{ site.baseurl }}/contents/arrays/array-operations.html)
-- Data Types
-  - Numeric Data Types
-  - Strings
-  - Cell Arrays and Structures
+- [Data Types: Numeric Data Types, Strings, Cell Arrays, and Structures](contents/data-types)
 - Operations
   - Array Operations
   - Relational and Logical Operations
