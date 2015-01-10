@@ -3,11 +3,6 @@ title: Loops
 ---
 
 # {{ page.title }}
----
-title: Loops
----
-
-# {{ page.title }}
 
 ## For Loops
 

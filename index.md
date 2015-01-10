@@ -2,7 +2,6 @@
 layout: default
 title: Home
 ---
-{% capture contentsurl %}{{ site.baseurl }}/contents{% endcapture %}
 
 # MATLAB/Octave Study
 
@@ -26,17 +25,17 @@ Click <del>[here](https://github.com/dlimpid/matlab-study-2015/issues)</del> for
 
 ## Contents
 
-- [Introduction]({{ contentsurl }}/introduction)
+- [Introduction]({{ site.contentsurl }}/introduction)
 - Arrays
-  - [Array Construction and Indexing]({{ contentsurl }}/array-construction-and-indexing)
-  - [Array Operations]({{ contentsurl }}/array-operations)
+  - [Array Construction and Indexing]({{ site.contentsurl }}/array-construction-and-indexing)
+  - [Array Operations]({{ site.contentsurl }}/array-operations)
     - Array Operations
     - Relational and Logical Operations
-- [Data Types: Numeric Data Types, Strings, Cell Arrays, and Structures]({{ contentsurl }}/data-types)
+- [Data Types: Numeric Data Types, Strings, Cell Arrays, and Structures]({{ site.contentsurl }}/data-types)
 - Control Flow
-  - [Conditional Statements]({{ contentsurl }}/conditional-statements)
-  - [Loops]({{ contentsurl }}/loops)
-- Functions
+  - [Conditional Statements]({{ site.contentsurl }}/conditional-statements)
+  - [Loops]({{ site.contentsurl }}/loops)
+- [Functions]({{ site.contentsurl }}/functions)
 - Performance
   - Preallocation
   - Vectorization

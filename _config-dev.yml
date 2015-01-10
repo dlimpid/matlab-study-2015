@@ -1,0 +1,5 @@
+# Config override for devolopment environment
+
+baseurl: ""
+contentsurl: "/contents"
+imagesurl: "/contents/images"

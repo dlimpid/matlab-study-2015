@@ -1,9 +1,8 @@
 ---
-layout: page
 title: Introduction
 ---
 
-# Introduction
+# {{ page.title }}
 
 From [MathWorks](http://www.mathworks.com/products/matlab/):
 
@@ -122,3 +121,5 @@ c = 3;
 b =
      2
 ~~~
+
+### Base Workspace

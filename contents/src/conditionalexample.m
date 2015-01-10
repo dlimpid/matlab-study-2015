@@ -25,9 +25,7 @@ else
   disp('False');
 end
 
-
-
-
+  % Nested function
   function b = countandreturn(b)
     counter = counter + 1;
     fprintf('counter = %d\n', counter);

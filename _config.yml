@@ -17,20 +17,21 @@ source: .
 destination: ./_site
 
 markdown: kramdown
-kramdown:
-  input: GFM
-redcarpet:
-  extensions: [strikethrough, tables]
+# kramdown:
+#   input: GFM
 highlighter: pygments
 
 permalink: pretty
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "contents"
     values:
       layout: "page"
 
+timezone: Asia/Seoul
+
 # Site variables
 githubfileurl: "https://github.com/dlimpid/matlab-study-2015/blob/gh-pages/contents/src"
+contentsurl: "/matlab-study-2015/contents"
+imagesurl: "/matlab-study-2015/contents/images"
