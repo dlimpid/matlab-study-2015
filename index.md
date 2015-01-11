@@ -2,7 +2,6 @@
 layout: default
 title: Home
 ---
-
 # MATLAB/Octave Study
 
 An internal study for Hwang’s lab, Department of Mathematics, POSTECH.
@@ -36,9 +35,7 @@ Click <del>[here](https://github.com/dlimpid/matlab-study-2015/issues)</del> for
   - [Conditional Statements]({{ site.contentsurl }}/conditional-statements)
   - [Loops]({{ site.contentsurl }}/loops)
 - [Functions]({{ site.contentsurl }}/functions)
-- Performance
-  - Preallocation
-  - Vectorization
+- [Improving Performance: Preallocation and Vectorization]({{ site.contentsurl }}/improving-performance)
 - Graphics
   - Handle Graphics
 
@@ -51,11 +48,11 @@ Precompiled version with Microsoft Visual Studio are available from [Octave Forg
 
 ### Debian (Ubuntu)
 
-```
+~~~bash
 sudo apt-add-repository ppa:octave/stable
 sudo apt-get update
 sudo apt-get install octave
-```
+~~~
 
 ### OS X
 

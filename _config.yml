@@ -19,7 +19,7 @@ destination: ./_site
 markdown: kramdown
 # kramdown:
 #   input: GFM
-highlighter: pygments
+# highlighter: pygments
 
 permalink: pretty
 

@@ -18,9 +18,6 @@
   - For loops
     - Matrix loop values: e.g. `for k = magic(3)`
   - While loops
-- Preallocation and Vectorization
-  - Preallocation
-  - Vectorization
 - Graphics
   - `plot`
   - Figure and axes properties

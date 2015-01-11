@@ -4,3 +4,4 @@ Gemfile
 Gemfile.lock
 temp/
 contents/src/*.asv
+serve.sh
