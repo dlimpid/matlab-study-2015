@@ -4,4 +4,15 @@
 
 </footer>
 
+<!-- Bootstrap -->
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+<!-- highlight.js -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/languages/matlab.min.js"></script>
+<script>
+  hljs.registerLanguage('plain', function(hljs) {
+    return { case_insensitive: true, keywords: '', contains: [] };
+  });
+  hljs.initHighlightingOnLoad();
+</script>
