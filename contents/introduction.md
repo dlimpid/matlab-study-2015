@@ -1,9 +1,6 @@
 ---
 title: Introduction
 ---
-
-# {{ page.title }}
-
 From [MathWorks](http://www.mathworks.com/products/matlab/):
 
 > MATLAB<sup>®</sup> is the high-level language and interactive environment used by millions of engineers and scientists worldwide.

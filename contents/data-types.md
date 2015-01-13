@@ -1,10 +1,6 @@
 ---
-layout: page
 title: Data Types
 ---
-
-# {{ page.title }}
-
 ## Numeric Data Types
 
 ### Integers

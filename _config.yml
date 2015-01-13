@@ -27,7 +27,7 @@ defaults:
   - scope:
       path: "contents"
     values:
-      layout: "page"
+      layout: "content"
 
 timezone: Asia/Seoul
 

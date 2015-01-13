@@ -1,8 +1,6 @@
 ---
 title: Improving Performance
 ---
-# {{ page.title }}
-
 ## General Tips
 
 - Functions are generally faster than scripts.
@@ -32,3 +30,6 @@ for k = 1:n
 end
 toc(); % => Elapsed time is 0.071869 seconds.
 ~~~
+
+## Vectorization
+

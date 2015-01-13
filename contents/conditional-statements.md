@@ -1,9 +1,6 @@
 ---
 title: Conditional Statements
 ---
-
-# {{ page.title }}
-
 ## If-Elseif-Else-End Statements
 
 Syntax:

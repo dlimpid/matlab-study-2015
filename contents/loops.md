@@ -1,9 +1,6 @@
 ---
 title: Loops
 ---
-
-# {{ page.title }}
-
 ## For Loops
 
 Syntax:
