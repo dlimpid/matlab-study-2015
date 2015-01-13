@@ -24,6 +24,10 @@ img {
   vertical-align: middle;
 }
 
+dl > dd {
+  padding-left: 4em;
+}
+
 pre > code.hljs { // code block only
   font-size: 1em;
   padding: 0;
@@ -39,12 +43,21 @@ pre > code.hljs { // code block only
 
 
 // overload Bootstrap
+%alert-common::before {
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 0.5em;
+  vertical-align: middle;
+}
 .alert-warning {
+  @extend %alert-common;
   &::before {
-    font-family: FontAwesome;
     content: "\f071"; // fa-exclamation-triangle == fa-warning
-    display: inline-block;
-    padding-right: 0.5em;
-    vertical-align: middle;
+  }
+}
+.alert-info {
+  @extend %alert-common;
+  &::before {
+    content: "\f05a"; // fa-info-circle
   }
 }

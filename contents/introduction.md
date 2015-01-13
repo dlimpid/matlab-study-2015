@@ -129,11 +129,11 @@ b =
 
 ### Base Workspace
 
-The data (variables) created in the Command Window live in the *Base workspace*.
+The data (variables) created in the Command Window live in the **Base workspace**.
 
 ~~~plain
 >> a = 1; b = 2; c = 3; d = 4;
->> whos
+>> whos;
   Name      Size            Bytes  Class     Attributes
 
   a         1x1                 8  double              
@@ -148,7 +148,7 @@ The data (variables) created in the Command Window live in the *Base workspace*.
   a         1x1                 8  double              
   c         1x1                 8  double              
 
->> clear
->> whos
+>> clear;
+>> whos;
 >> 
 ~~~
