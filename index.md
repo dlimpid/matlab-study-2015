@@ -49,9 +49,9 @@ Precompiled version with Microsoft Visual Studio are available from [Octave Forg
 ### Debian (Ubuntu)
 
 ~~~bash
-sudo apt-add-repository ppa:octave/stable
-sudo apt-get update
-sudo apt-get install octave
+$ sudo apt-add-repository ppa:octave/stable
+$ sudo apt-get update
+$ sudo apt-get install octave
 ~~~
 
 ### OS X
@@ -59,9 +59,11 @@ sudo apt-get install octave
 See [Octave for MacOS X](http://wiki.octave.org/Octave_for_MacOS_X).
 
 
-## References and Useful Sites <a name="references"></a>
+## References and Useful Sites {#references}
 
 - Duane Hanselman and Bruce Littlefield, Mastering MATLAB
 - [MATLAB array manipulation tips and tricks](http://home.online.no/~pjacklam/matlab/doc/mtt/index.html)
 - [Undocumented Matlab](http://undocumentedmatlab.com/)
-
+- [MATLAB - Wikipedia](http://en.wikipedia.org/wiki/MATLAB)
+- [MATLAB Central File Exchange](http://www.mathworks.com/matlabcentral/fileexchange/)
+- [Cody](http://www.mathworks.com/matlabcentral/cody)

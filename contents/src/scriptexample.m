@@ -1,5 +1,4 @@
 % scriptexample.m
-
 clear;
 
 a = 1;

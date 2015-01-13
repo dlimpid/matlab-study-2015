@@ -1,3 +1,5 @@
+$blockquote-font-size: $font-size-base;
+
 @import "bootstrap-3.3.1/bootstrap";
 @import "bootstrap-3.3.1/bootstrap/theme"; // Optional
 
@@ -21,6 +23,20 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
+
+pre > code.hljs { // code block only
+  font-size: 1em;
+  padding: 0;
+}
+:not(pre) > code { /* inline code only */
+  font-size: 1em;
+  border: 1px solid darken($code-bg, 10%);
+  // border-radius: 0.2em;
+  padding: 0 0.2em;
+  // background-color: #3f3f3f;
+}
+
+
 
 // overload Bootstrap
 .alert-warning {
