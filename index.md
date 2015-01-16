@@ -27,6 +27,7 @@ Click <del>[here](https://github.com/dlimpid/matlab-study-2015/issues)</del> for
 - [Introduction]({{ site.contentsurl }}/introduction)
 - Arrays
   - [Array Construction and Indexing]({{ site.contentsurl }}/array-construction-and-indexing)
+  - [Array Manipulation]({{ site.contentsurl }}/array-manipulation)
   - [Array Operations]({{ site.contentsurl }}/array-operations)
     - Array Operations
     - Relational and Logical Operations
