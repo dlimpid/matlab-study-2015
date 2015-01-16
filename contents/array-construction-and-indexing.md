@@ -122,6 +122,20 @@ ans =
           0.7      0.53333      0.36667          0.2
 ~~~
 
+`a + b:c + d:e + f` is the same as `(a + b):(c + d):(e + f)`, but not `a + (b:c) + (d:e) + f`.
+
+{:.alert .alert-warning}
+Arithmetic operators have a higher precedence than colon.
+
+~~~plain
+>> 1:3 + 2 % == 1:3+2 == 1:(3 + 2)
+ans =
+     1     2     3     4     5
+>> (1:3) + 2
+ans =
+     3     4     5
+~~~
+
 ### Standard Arrays
 
 `zeros(n)` or `zeros(m, n)` or `zeros([m n])`
@@ -291,3 +305,42 @@ ans =
 ans =
      5     7     6     8
 ~~~
+
+## Excercises
+
+1.  Make the following matrices:
+
+    1.  <span></span>
+ 
+        ~~~matlab
+        [1 1 1 1 0 0;
+         1 1 1 1 0 0;
+         0 0 0 1 1 1;
+         0 0 0 1 1 1;
+         0 0 0 1 1 1]
+        ~~~
+ 
+    2.  <span></span>
+ 
+        ~~~matlab
+        [1 1 1 1 0 0;
+         1 1 1 1 0 0;
+         1 1 1 1 1 1;
+         0 0 0 0 1 1;
+         0 0 0 0 1 1]
+        ~~~
+
+2.  For a row vector `x = 1:10`:
+    1.  Select every even numbered elements in `x`. (`[2 4 6 8 10]`)
+    2.  Reverse `x`.[^fliplr]  (`[10 9 8 7 6 5 4 3 2 1]`)
+
+3.  For a matrix `A` with `n = 6; A = magic(n)`:
+    1.  Select diagonal elements of `A`.[^diag]  (`[35 32 2 17 14 11]`)
+    2.  Select anti-diagonal elements of `A`. (`[4 5 33 22 23 24]`)
+
+[^fliplr]: As a matter of fact, there is a function `fliplr`.
+
+[^diag]: There is a function `diag`.
+
+--- 
+{::comment}Placeholder for footnotes{:/comment}

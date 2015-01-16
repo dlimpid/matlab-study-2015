@@ -7,8 +7,8 @@ title: Home
 An internal study for Hwang’s lab, Department of Mathematics, POSTECH.
 
 - Schedule
-  - **Wednesday, January 14, 2015, 4:00 PM**
-  - Monday, 19, 4:00 PM
+  - <del>Wednesday, January 14, 2015, 4:00 PM</del>
+  - **Monday, 19, 4:00 PM**
   - Wednesday, 21, 4:00 PM
   - Friday, 23, 4:00 PM
   - Monday, 26, 4:00 PM

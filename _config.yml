@@ -7,9 +7,7 @@ title: MATLAB/Octave Study
 #   Google search results) and in your feed.xml site description.
 # Serving
 baseurl: "/matlab-study-2015"
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-# github_username:  jekyll
+jsurl: "/matlab-study-2015/js"
 
 
 # Build settings
