@@ -52,14 +52,14 @@ Transpose and conjugate transpose:
 B =
             1 +          1i            1 +          2i
             2 +          1i            2 +          2i
->> B'
-ans =
-            1 -          1i            2 -          1i
-            1 -          2i            2 -          2i
 >> B.'
 ans =
             1 +          1i            2 +          1i
             1 +          2i            2 +          2i
+>> B'
+ans =
+            1 -          1i            2 -          1i
+            1 -          2i            2 -          2i
 ~~~
 
 ## Array Manipulation Functions
@@ -132,6 +132,26 @@ ans =
 >> length(zeros(3, 5, 1, 2, 6, 4))
 ans =
      6
+~~~
+
+In MATLAB, all arrays are of dimension &ge; 2.
+
+~~~plain
+>> ndims(zeros(3, 3, 3, 3, 3))
+ans =
+     5
+>> ndims(zeros(3, 3, 3, 3))
+ans =
+     4
+>> ndims(zeros(3, 3, 3))
+ans =
+     3
+>> ndims(zeros(3, 3))
+ans =
+     2
+>> [ndims(1), ndims([1 2]), ndims([1; 2])] % not one!
+ans =
+     2     2     2
 ~~~
 
 ## Delayed Copy

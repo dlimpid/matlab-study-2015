@@ -29,8 +29,6 @@ Click <del>[here](https://github.com/dlimpid/matlab-study-2015/issues)</del> for
   - [Array Construction and Indexing]({{ site.contentsurl }}/array-construction-and-indexing)
   - [Array Manipulation]({{ site.contentsurl }}/array-manipulation)
   - [Array Operations]({{ site.contentsurl }}/array-operations)
-    - Array Operations
-    - Relational and Logical Operations
 - [Data Types: Numeric Data Types, Strings, Cell Arrays, and Structures]({{ site.contentsurl }}/data-types)
 - Control Flow
   - [Conditional Statements]({{ site.contentsurl }}/conditional-statements)
