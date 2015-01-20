@@ -1,7 +1,7 @@
 ---
-title: Improving Performance
+title: Improving performance
 ---
-## General Tips
+## General tips
 
 - Functions are generally faster than scripts.
 - Split large scripts or functions into smaller ones.

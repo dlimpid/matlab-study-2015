@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-# MATLAB/Octave Study
+# MATLAB/Octave study
 
 An internal study for Hwang’s lab, Department of Mathematics, POSTECH.
 
@@ -26,17 +26,18 @@ Click <del>[here](https://github.com/dlimpid/matlab-study-2015/issues)</del> for
 
 - [Introduction]({{ site.contentsurl }}/introduction)
 - Arrays
-  - [Array Construction and Indexing]({{ site.contentsurl }}/array-construction-and-indexing)
-  - [Array Manipulation]({{ site.contentsurl }}/array-manipulation)
-  - [Array Operations]({{ site.contentsurl }}/array-operations)
-- [Data Types: Numeric Data Types, Strings, Cell Arrays, and Structures]({{ site.contentsurl }}/data-types)
-- Control Flow
-  - [Conditional Statements]({{ site.contentsurl }}/conditional-statements)
+  - [Array construction and indexing]({{ site.contentsurl }}/array-construction-and-indexing)
+  - [Array manipulation]({{ site.contentsurl }}/array-manipulation)
+  - [Array operations]({{ site.contentsurl }}/array-operations)
+- [Data types]({{ site.contentsurl }}/data-types)
+- Control flow
+  - [Conditional statements]({{ site.contentsurl }}/conditional-statements)
   - [Loops]({{ site.contentsurl }}/loops)
 - [Functions]({{ site.contentsurl }}/functions)
-- [Improving Performance: Preallocation and Vectorization]({{ site.contentsurl }}/improving-performance)
+  - [List of mathematical functions]({{ site.contentsurl }}/list-of-mathematical-functions)
+- [Improving performance: preallocation and vectorization]({{ site.contentsurl }}/improving-performance)
 - Graphics
-  - Handle Graphics
+  - Handle graphics
 
 
 ## Installing Octave
@@ -58,7 +59,7 @@ $ sudo apt-get install octave
 See [Octave for MacOS X](http://wiki.octave.org/Octave_for_MacOS_X).
 
 
-## References and Useful Sites {#references}
+## References and useful sites {#references}
 
 - Duane Hanselman and Bruce Littlefield, Mastering MATLAB
 - [MATLAB array manipulation tips and tricks](http://home.online.no/~pjacklam/matlab/doc/mtt/index.html)

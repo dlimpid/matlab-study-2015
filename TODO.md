@@ -6,10 +6,6 @@
 
 ## Contents
 
-- Array Operations
-  - Matrix operations
-  - Element-wise operations
-  - Scalar expansion
 - Structures and Cells
   - Structures
   - Cells
@@ -23,3 +19,4 @@
   - Figure and axes properties
   - Handle graphics: `get` and `set`
 - Profiling
+- `arrayfun`, `bsxfun`

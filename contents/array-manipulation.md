@@ -1,5 +1,5 @@
 ---
-title: Array Manipulation
+title: Array manipulation
 ---
 There are many ways to manipulate a (part of) matrix.
 
@@ -62,7 +62,7 @@ ans =
             1 -          2i            2 -          2i
 ~~~
 
-## Array Manipulation Functions
+## Array manipulation functions
 
 ~~~plain
 >> reshape(C, 3, 4)
@@ -92,7 +92,7 @@ ans =
 
 See also `fliplr`, `flipud`, `rot90`, `diag`, `triu`, and `tril`.
 
-## Size of Arrays
+## Size of arrays
 
 ~~~plain
 >> A = [1 2 3 4; 5 6 7 8];
@@ -154,7 +154,7 @@ ans =
      2     2     2
 ~~~
 
-## Delayed Copy
+## Delayed copy
 
 For performance, memory allocation is not done immediately, but done only when it is really needed. It applies to function calls as well.
 

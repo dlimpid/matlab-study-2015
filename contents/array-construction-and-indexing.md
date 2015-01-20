@@ -1,7 +1,7 @@
 ---
-title: Array Construction and Indexing
+title: Array construction and indexing
 ---
-## Array Creation (by Hand)
+## Array creation (by hand)
 
 `[]`
 : Array concatenation
@@ -50,9 +50,9 @@ Error using vertcat
 Dimensions of matrices being concatenated are not consistent. 
 ~~~
 
-## Array Construction
+## Array construction
 
-### Colon Operator (`:`) and `linspace`
+### Colon operator (`:`) and `linspace`
 
 {:.alert .alert-info}
 Search Help with the keyword “colon.”
@@ -136,7 +136,7 @@ ans =
      3     4     5
 ~~~
 
-### Standard Arrays
+### Standard arrays
 
 `zeros(n)` or `zeros(m, n)` or `zeros([m n])`
 : returns `n` by `n` or `m` by `n` matrix of all zeros
@@ -179,7 +179,7 @@ ans =
 
 See also `NaN`, `Inf`, `diag`, `true`, `false`, and `randn`.
 
-## Array Concatenation (Again)
+## Array concatenation (again)
 
 ~~~plain
 >> a = [1 2; 3 4]; b = [5; 6]; c = [7 8 9];
@@ -190,7 +190,7 @@ ans =
      7     8     9
 ~~~
 
-## Array Indexing
+## Array indexing
 
 For vectors:
 
@@ -237,7 +237,7 @@ ans =
           0.9            1
 ~~~
 
-### Linear Index
+### Linear index
 
 ~~~plain
 >> A(10)
@@ -267,7 +267,7 @@ c =
      3
 ~~~
 
-### Logical Index
+### Logical index
 
 The index array should be a **logical** class, not double.
 

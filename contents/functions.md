@@ -1,7 +1,7 @@
 ---
 title: Functions
 ---
-## M-File Functions
+## M-file functions
 
 ~~~matlab
 function [out1, out2, out3] = dummyfunction(in1, in2, in3)
@@ -27,15 +27,15 @@ end
 - ![Function help text]({{ site.imagesurl }}/function-help-text.png){:.pull-right .img-thumbnail}
   The first contiguous lines of comments are the help text.
 
-### Input and Output Arguments
+### Input and output arguments
 
 - TODO: `varargin`, `varargout`
 - TODO: `nargin`, `nargout`
 - TODO: `narginchk`, `nargoutchk`
 - TODO: Call by value
 
-### Function Workspace
+### Function workspace
 
 ### Subfunctions
 
-## Anonymous Functions and Function Handles
+## Anonymous functions and function handles

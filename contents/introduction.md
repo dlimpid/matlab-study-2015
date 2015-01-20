@@ -9,7 +9,7 @@ From [Wikipedia](http://en.wikipedia.org/wiki/MATLAB):
 
 > MATLAB (**mat**rix **lab**oratory) is a multi-paradigm numerical computing environment and fourth-generation programming language. Developed by MathWorks, MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages, including C, C++, Java, Fortran and Python.
 
-## MATLAB as a Calculator
+## MATLAB as a calculator
 
 ~~~plain
 >> 42 + 4 * 2
@@ -25,7 +25,7 @@ ans =
 
 ## Variables
 
-### Naming Rules
+### Naming rules
 
 Same as C/C++ and most programming languages, except that it cannot start with underscore.
 
@@ -56,7 +56,7 @@ Same as C/C++ and most programming languages, except that it cannot start with u
   Error: The input character is not valid in MATLAB statements or expressions.
   ~~~
 
-### Keywords and Special Variables
+### Keywords and special variables
 
 Keywords cannot be used as variable names: `for`, `end`, `while`, `continue`, `break`, `if`, `elseif`, `else`, `switch`, `case`, `otherwise`, `function`, `return`, `try`, `catch`, `global`, `persistent`
 
@@ -105,7 +105,7 @@ ans =
 ~~~
 
 
-## Script M-Files
+## Script m-files
 
 You can save any commands in a file and evaluate them.
 The effect is exactly the same as that it is typed at the Command Window.
@@ -127,7 +127,7 @@ b =
      2
 ~~~
 
-### Base Workspace
+### Base workspace
 
 The data (variables) created in the Command Window live in the **Base workspace**.
 

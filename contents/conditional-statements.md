@@ -1,7 +1,7 @@
 ---
-title: Conditional Statements
+title: Conditional statements
 ---
-## If-Elseif-Else-End Statements
+## If-elseif-else-end statements
 
 Syntax:
 
@@ -36,9 +36,9 @@ ans =
      1     0
 ~~~
 
-### Shortcut Evaluation
+### Shortcut evaluation
 
-## Switch Statements
+## Switch statements
 
 Syntax:
 

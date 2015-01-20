@@ -18,5 +18,5 @@ TODO: Change of loop variable inside a loop
 
 TODO: values evaluated only once
 
-## While Loops
+## While loops
 

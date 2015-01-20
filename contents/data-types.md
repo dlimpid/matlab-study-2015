@@ -1,7 +1,7 @@
 ---
-title: Data Types
+title: Data types
 ---
-## Numeric Data Types
+## Numeric data types
 
 ### Integers
 
@@ -31,7 +31,7 @@ ans =
 uint64
 ~~~
 
-### Floating-Point Numbers
+### Floating-point numbers
 
 The default data type is [double precision](http://en.wikipedia.org/wiki/Double-precision_floating-point_format).
 
@@ -92,7 +92,7 @@ Strings are arrays of numerical data a little special.
 
 TODO
 
-## Cell Arrays
+## Cell arrays
 
 Each cell in a cell array can hold *any* data type, may be different each other.
 The major usage of cell arrays is for saving several strings or several arrays of different (unknown) size.
@@ -109,7 +109,7 @@ ans =
     [4x2 double]    [7x9 double]
 ~~~
 
-### Cell Indexing and Content Addressing
+### Cell indexing and content addressing
 
 ~~~
 >> c = {1, 1:2; 1:3, 1:4}
@@ -134,6 +134,6 @@ double
 
 TODO
 
-## Advanced: Comma-Separated Lists 
+## Advanced: comma-separated lists 
 
 TODO

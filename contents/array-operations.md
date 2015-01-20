@@ -1,9 +1,9 @@
 ---
-title: Array Operations
+title: Array operations
 ---
-## Arithmatic Operations
+## Arithmatic operations
 
-### Matrix Operations
+### Matrix operations
 
 {:.alert .alert-info}
 You can search documentation with the keywords *arithmetic*, *operators*, or name of each operators.
@@ -76,7 +76,7 @@ You can search documentation with the keywords *arithmetic*, *operators*, or nam
 MATLAB does not have compound assignment operators, such as `+=` and `*=`. One should use `x = x + 1` rather than `x += 1` or `++x`.
 
 
-### Element-wise Operations
+### Element-wise operations
 
 - Element-wise multiplication (`times`) and division (`ldivide` and `rdivide`)
 
@@ -114,9 +114,9 @@ MATLAB does not have compound assignment operators, such as `+=` and `*=`. One s
   ~~~
 
 
-## Relational and Logical Operations
+## Relational and logical operations
 
-### Relational Operators
+### Relational operators
 
 ~~~plain
 >> x = 1:3;
@@ -143,7 +143,7 @@ ans =
 {:.alert .alert-info}
 Note that all the above results are `logical`, not floating point (`double`) or integers.
 
-### Logical Operators
+### Logical operators
 
 ~~~plain
 >> a = [false false true true];
@@ -199,7 +199,7 @@ false && f(false)
 ~~~
 
 
-## Scalar Expansion
+## Scalar expansion
 
 The scalar value is automatically expanded to array the same size as the other side of the operator, and operators are evaluated as element-wise sense.
 
@@ -229,7 +229,7 @@ ans =
 `Matrix / scalar` works but `scalar / Matrix` not. Consider about `10 / [2; 5]`.
 
 
-## Operator Precedence
+## Operator precedence
 
 Operators have precedence, almost the same with “normal math.”
 
@@ -288,14 +288,3 @@ ans =
 ans =
     -1
 ~~~
-
-
-{::comment}
-TODO
-
-
-
-
-### ??
-`arrayfun`, `bsxfun`.
-{:/comment}
