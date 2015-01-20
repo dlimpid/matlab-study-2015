@@ -5,12 +5,12 @@ title: Data types
 
 ### Integers
 
-{:.bg-info}
+{:.alert .alert-info}
 Integer data types are seldom used in MATLAB.
 
 In almost every case, the number is double precision be default.
 
-~~~
+~~~plain
 >> x = 1:5 % double precision
 x =
      1     2     3     4     5
@@ -35,7 +35,7 @@ uint64
 
 The default data type is [double precision](http://en.wikipedia.org/wiki/Double-precision_floating-point_format).
 
-~~~
+~~~plain
 >> realmin
 ans =
   2.2251e-308
@@ -56,9 +56,9 @@ ans =
      1
 ~~~
 
-Conforms [IEEE standard](http://en.wikipedia.org/wiki/IEEE_floating_point).
+They Conforms [IEEE standard](http://en.wikipedia.org/wiki/IEEE_floating_point).
 
-~~~
+~~~plain
 >> format bit; % Octave only
 >> 0, +0, -0, Inf, -Inf, NaN
 ans = 0000000000000000000000000000000000000000000000000000000000000000
@@ -78,24 +78,63 @@ ans =
      0
 ~~~
 
-| `==`   | `0` | `-0` | `Inf` | `-Inf` | `NaN` |
-| `0`    | T   | T    | F     | F      | F     |
-| `-0`   | T   | T    | F     | F      | F     |
-| `Inf`  | F   | F    | T     | F      | F     |
-| `-Inf` | F   | F    | F     | T      | F     |
-| `NaN`  | F   | F    | F     | F      | F     |
-{:.table}
 
 ## Strings
 
-Strings are arrays of numerical data a little special.
+Strings are arrays of integers (ASCII characters) a little special. Single quotes are used for strings. (Octave also supports double quotes.)
 
-TODO
+~~~plain
+>> s = 'Hello!'
+s =
+Hello!
+>> ['H' 'e' 'l' 'l' 'o' '!']
+ans =
+Hello!
+>> class(s)
+ans =
+char
+>> numel(s)
+ans =
+     6
+~~~
+
+Since strings are basically arrays, they can be manipulated with all array manipulation operators or functions.
+
+~~~plain
+>> s = 'The quick brown fox jumps over the lazy dog';
+>> s(2:2:end)
+ans =
+h uc rw o up vrtelz o
+>> s(end:-1:1)
+ans =
+god yzal eht revo spmuj xof nworb kciuq ehT
+>> ['The', ' ', 'quick', ' brown']
+ans =
+The quick brown
+~~~
+
+Any arithmetic operations on string will convert the string into numbers.
+
+~~~plain
+>> double('abcdef')
+ans =
+    97    98    99   100   101   102
+>> 'abcdef' - 'a'
+ans =
+     0     1     2     3     4     5
+>> 2 * 'abcdef'
+ans =
+   194   196   198   200   202   204
+>> char('abcdef' + ('A' - 'a'))
+ans =
+ABCDEF
+~~~
+
 
 ## Cell arrays
 
 Each cell in a cell array can hold *any* data type, may be different each other.
-The major usage of cell arrays is for saving several strings or several arrays of different (unknown) size.
+The major usage of cell arrays is for saving several strings or several arrays of different size.
 
 ~~~
 >> ['fisrt string'; 'second string']
@@ -104,10 +143,17 @@ Dimensions of matrices being concatenated are not consistent.
 >> {'first string', 'second string'}
 ans = 
     'first string'    'second string'
->> {zeros(randi(10, [1 2])), ones(randi(10, [1 2]))}
+>> {zeros(4, 2), ones(7, 9)}
 ans = 
     [4x2 double]    [7x9 double]
+>> c1 = {@sin, @cos}
+c1 = 
+    @sin    @cos
+>> c2 = {'Hello', @tan, rand(10), [], {'another cell'}}
+c2 = 
+    'Hello'    @tan    [10x10 double]    []    {1x1 cell}
 ~~~
+
 
 ### Cell indexing and content addressing
 
@@ -130,10 +176,42 @@ ans =
 double
 ~~~
 
+
 ## Structures
 
-TODO
+Structures are like cell arrays but using field names instead of number.
 
-## Advanced: comma-separated lists 
+~~~plain
+>> student.name = 'Gildong Hong'
+student = 
+    name: 'Gildong Hong'
+>> student.age = 20; student.gpa = 3.6; student.dept = 'Mathematics'
+student = 
+    name: 'Gildong Hong'
+     age: 20
+     gpa: 3.6
+    dept: 'Mathematics'
+~~~
 
-TODO
+In fact, structure also is an array.
+
+~~~plain
+>> student(2) = struct('name', 'Cheolsu Lee', 'age', 21, 'gpa', 3.7, 'dept', 'Computer science and engineering')
+student = 
+1x2 struct array with fields:
+    name
+    age
+    gpa
+    dept
+>> student.name % comma-separated list
+ans =
+Gildong Hong
+ans =
+Cheolsu Lee
+>> {student.name}
+ans = 
+    'Gildong Hong'    'Cheolsu Lee'
+>> [student.age]
+ans =
+    20    21
+~~~

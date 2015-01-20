@@ -17,9 +17,7 @@ An internal study for Hwang’s lab, Department of Mathematics, POSTECH.
 - Place: **Room 210**, Mathematical Science Building
 - Text: There is no required text but I will continually update this homepage instead. See [References](#references) for more materials.
 
-Click <del>[here](https://github.com/dlimpid/matlab-study-2015/issues)</del> for any questions, comments, and requests. 
-**Any correction also is appreciated.**
-(I am finding another methods other than GitHub issue page, which signing in is needed to write a post to.)
+**Any correction is appreciated.**
 
 
 ## Contents
@@ -34,10 +32,11 @@ Click <del>[here](https://github.com/dlimpid/matlab-study-2015/issues)</del> for
   - [Conditional statements]({{ site.contentsurl }}/conditional-statements)
   - [Loops]({{ site.contentsurl }}/loops)
 - [Functions]({{ site.contentsurl }}/functions)
-  - [List of mathematical functions]({{ site.contentsurl }}/list-of-mathematical-functions)
 - [Improving performance: preallocation and vectorization]({{ site.contentsurl }}/improving-performance)
 - Graphics
   - Handle graphics
+- Appendix
+  - [List of mathematical functions]({{ site.contentsurl }}/list-of-mathematical-functions)
 
 
 ## Installing Octave
