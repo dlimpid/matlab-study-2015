@@ -116,13 +116,17 @@ y = x(ind);
 end
 ~~~
 
-Result:
+Test:
 
 ~~~matlab
-nevals = 10000;
+function runlengthdecodetest(nx, maxR, nevals)
 
-x = randperm(200);
-r = randi(100, size(x));
+if nargin < 3
+  nevals = 10000;
+end
+
+x = randperm(nx);
+r = randi(maxR, size(x));
 
 tic();
 for k = 1:nevals
@@ -143,6 +147,8 @@ for k = 1:nevals
   y = runlengthdecode3(x, r);
 end
 toc();
+
+end
 ~~~
 
 ~~~plain
