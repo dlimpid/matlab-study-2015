@@ -17,3 +17,8 @@ for k = 1:n
   x(k) = sin(k);
 end
 toc();
+
+clear x k;
+tic();
+x = sin(1:n);
+toc();
