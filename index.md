@@ -14,8 +14,9 @@ An internal study for Hwang’s lab, Department of Mathematics, POSTECH.
   - Wednesday, 21, 4:00 PM
   - <del>Friday, 23, 4:00 PM</del> (cancelled)
   - Monday, 26, 4:00 PM
-  - **Wednesday, 28, 4:00 PM**
-  - Friday, 30, 4:00 PM
+  - Wednesday, 28, 4:00 PM
+  - <del>Friday, 30, 4:00 PM</del> (cancelled)
+  - Wednesday, February 4, 4:00 PM
 - Place: **Room 210**, Mathematical Science Building
 - Text: There is no required text but I will continually update this homepage instead. See [References](#references) for more materials.
 
@@ -35,7 +36,7 @@ An internal study for Hwang’s lab, Department of Mathematics, POSTECH.
   - [Loops]({{ site.contentsurl }}/loops)
 - [Functions]({{ site.contentsurl }}/functions)
 - [Improving performance]({{ site.contentsurl }}/improving-performance)
-- Graphics
+- [Graphics]({{ site.contentsurl }}/graphics)
 - Appendix
   - [List of mathematical functions]({{ site.contentsurl }}/list-of-mathematical-functions)
 
